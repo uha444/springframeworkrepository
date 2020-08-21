@@ -11,7 +11,7 @@ public class Student {
 	}
 
 	public Student(int sid, String name, Address address) {
-		super();
+		System.out.println("parameter constructor");
 		this.sid = sid;
 		this.name = name;
 		this.address = address;
